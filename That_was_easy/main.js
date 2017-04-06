@@ -1,7 +1,7 @@
 
-function saythatwaseasy() {
-var thatwaseasy = new Audio("that_was_easy.mp3");
-thatwaseasy.play();    
+function sayThatWasEasy() {
+var sound = new Audio("that_was_easy.mp3");
+   sound.play(); 
 
 }
-$("easy").on("click", saythatwaseasy);
+$("#easy").on("click", sayThatWasEasy);
